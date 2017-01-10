@@ -1,11 +1,24 @@
 {
   "name": "rando",
   "version": "1.0.0",
-  "description": "",
   "main": "fbchat.js",
   "scripts": {
+    "start": "node fbchat.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "facebook-chat-api": "^1.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelseavalentine/FbChatBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chelseavalentine/FbChatBot/issues"
+  },
+  "homepage": "https://github.com/chelseavalentine/FbChatBot#readme",
+  "description": ""
 }
